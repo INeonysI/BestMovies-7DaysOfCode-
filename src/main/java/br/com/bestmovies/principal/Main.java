@@ -1,6 +1,6 @@
 package br.com.bestmovies.principal;
 
-import br.com.bestmovies.api.API;
+import br.com.bestmovies.api.ImdbApiClient;
 import br.com.bestmovies.modelo.Filme;
 import br.com.bestmovies.modelo.FilmeRecord;
 import br.com.bestmovies.modelo.HTMLGenerator;
@@ -14,7 +14,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        API api = new API();
+        ImdbApiClient api = new ImdbApiClient();
         LeitorDeJson leitorDeJson = new LeitorDeJson();
 
         List<Filme> filmes = new ArrayList<>();

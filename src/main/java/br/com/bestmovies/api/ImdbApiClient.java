@@ -6,7 +6,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class API {
+public class ImdbApiClient {
     public String buscaPaginaDeMelhoresFilmes(int pagina) {
         String json = null;
         String key = "03de48f66303824c443b36741744feac";
